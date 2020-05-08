@@ -1,8 +1,7 @@
 **Changing The Java Version**
   
-- Change \<release\> in backend > pom.xml.
-- Change $JAVA_HOME environment variable
-- 
+- Change `\<release\>` in `backend/pom.xml`.
+- Change `$JAVA_HOME` environment variable
 
 Frameworks
 ------
@@ -23,17 +22,9 @@ improvements.
 
 Frontend
 ------
-**Thymeleaf**  
-Thymeleaf is used as a template engine to generate HTML views, and it is also more extendable than JSP. In this 
-application Thymeleaf will pass information to the templates while Vue.js will render it in a single page view.  
-  
 **Vue**  
 The frontend view is generated using the Vue.js Javascript framework as it is easy to work with, scalable, and makes 
 for some good looking frontend pages.
-
-CRUD
-------
-Album REST Controller | Album Service | Album DAO | mariadb
 
 Project Structure
 ------
@@ -43,9 +34,9 @@ Other packages can be added via the scanBasePackages variable for automatic comp
 
 Additional Info
 ------
-Static content like HTML, JavaScript, images etc. go into the /static directory.
+Static content like HTML, JavaScript, images etc. go into the `/static` directory.
 
-src/main/webapp should only be used if the application is packaged as a .war file as opposed to a .jar file.
+`src/main/webapp` should only be used if the application is packaged as a .war file as opposed to a .jar file.
 
 If you're using the IntelliJ IDE the spring boot devtool dependency requires some tweaking for reloading to work
 
