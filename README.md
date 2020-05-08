@@ -52,6 +52,12 @@ or, without Maven installed
 
 Running the application
 ------
+**Backend alternative #1**  
+
+`mvn --projects backend spring-boot:run`  
+
+**Backend alternative #2**  
+
 Navigate to `/target/`
 
 `java -jar webapp.jar`
