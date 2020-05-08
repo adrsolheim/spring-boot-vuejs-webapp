@@ -1,6 +1,6 @@
 **Changing The Java Version**
   
-- Change `\<release\>` in `backend/pom.xml`.
+- Change `<release>` in `backend/pom.xml`.
 - Change `$JAVA_HOME` environment variable
 
 Frameworks
