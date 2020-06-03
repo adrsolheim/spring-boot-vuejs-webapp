@@ -69,3 +69,8 @@ or from the directory in which `pom.xml` resides
 If you don't have Maven installed, this will automatically download and run the correct version
 
 `./mvnw spring-boot:run webapp.jar`
+
+**Frontend alternative #1**
+
+`cd frontend`  
+`npm start`
