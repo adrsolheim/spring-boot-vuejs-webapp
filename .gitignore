@@ -9,6 +9,7 @@
 # Personal notes
 links.txt
 features.txt
+TODO.txt
 
 # User-specific stuff
 .idea/**/workspace.xml
@@ -156,7 +157,7 @@ dist/
 npm-debug.log
 yarn-error.log
 # Extra
-backend/src/main/resources/public/
+backend/src/main/resources/public
 backend/target
 frontend/dist/
 frontend/node/
@@ -170,5 +171,7 @@ frontend/yarn-error.log
 frontend/yarn.lock
 security/target/
 selenium-debug.log
+frontend/.npm-global
+frontend/.atom-live-server.json
 
 # End of https://www.gitignore.io/api/java,vuejs,linux,maven,intellij
