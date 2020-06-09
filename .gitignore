@@ -157,7 +157,10 @@ dist/
 npm-debug.log
 yarn-error.log
 # Extra
-backend/src/main/resources/public
+**/backend/src/main/resources/public
+/backend/src/main/resources/public/
+backend/src/main/resources/public/
+backend/src/main/resources/public/**
 backend/target
 frontend/dist/
 frontend/node/
